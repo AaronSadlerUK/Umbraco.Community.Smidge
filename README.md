@@ -22,7 +22,7 @@ This project restores the `RuntimeMinifier` functionality to Umbraco v16.1.1+, p
 1. Add `.AddRuntimeMinifier()` to your UmbracoBuilder:
    ```csharp
    // In your Startup or Program.cs
-builder.CreateUmbracoBuilder()
+    builder.CreateUmbracoBuilder()
     .AddBackOffice()
     .AddWebsite()
     .AddComposers()
@@ -30,9 +30,10 @@ builder.CreateUmbracoBuilder()
     .AddRuntimeMinifier()
     .Build();
    ```
+
 2. Use the `IRuntimeMinifier` interface to minify assets at runtime.
 
-## Example
+#### Example
 
 ```csharp
 // Example usage in a notification handler
