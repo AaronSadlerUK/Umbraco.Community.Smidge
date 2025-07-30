@@ -4,7 +4,7 @@ using Umbraco.Cms.Core.Configuration.Models;
 
 namespace Umbraco.Community.Smidge;
 
-[UmbracoOptions(Constants.Configuration.ConfigCorePrefix + "RuntimeMinification")]
+[UmbracoOptions("smidge")]
 public class RuntimeMinificationSettings
 {
     internal const bool StaticUseInMemoryCache = false;

@@ -19,7 +19,7 @@ namespace Umbraco.Community.Smidge
         public static IUmbracoBuilder AddRuntimeMinifier(this IUmbracoBuilder builder)
         {
             builder.Services.AddUnique<ICacheBuster, UmbracoSmidgeConfigCacheBuster>();
-            builder.Services.AddSmidge(builder.Config.GetSection(Constants.Configuration.ConfigPrefix + "RuntimeMinification"));
+            builder.Services.AddSmidge(builder.Config.GetSection("smidge"));
 
             builder.Services.AddSmidgeNuglify();
             builder.Services.AddSmidgeInMemory(false); // it will be enabled based on config/cachebuster
