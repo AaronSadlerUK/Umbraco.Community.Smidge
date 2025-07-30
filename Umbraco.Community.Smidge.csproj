@@ -4,6 +4,26 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <AssemblyVersion>1.0.0</AssemblyVersion>
+	  <Version>1.0.0</Version>
+	  <InformationalVersion>1.0.0</InformationalVersion>
+	  <Copyright>(c) $([System.DateTime]::Now.ToString(`yyyy`)) Aaron Sadler</Copyright>
+	  <Authors>Aaron Sadler</Authors>
+	  <Product>Umbraco.Community.Smidge</Product>
+	  <PackageId>Umbraco.Community.Smidge</PackageId>
+	  <Title>Umbraco.Community.Smidge</Title>
+	  <Description>This brings back the Smidge implementation for Umbraco 16.</Description>
+	  <Product>Umbraco.Community.Smidge</Product>
+	  <PackageTags>umbraco plugin package Umbraco-Marketplace smidge</PackageTags>
+	  <PackageProjectUrl>https://github.com/AaronSadlerUK/Umbraco.Community.Smidge</PackageProjectUrl>
+	  <PackageIcon>logosmall.png</PackageIcon>
+	  <PackageIconUrl>https://raw.githubusercontent.com/NikRimington/HotChilli.Umbraco.PageNotFoundManager/main/docs/img/logo.png</PackageIconUrl>
+	  <RepositoryUrl>https://github.com/AaronSadlerUK/Umbraco.Community.Smidge</RepositoryUrl>
+	  <RepositoryType>Git</RepositoryType>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +31,17 @@
     <PackageReference Include="Smidge.InMemory" Version="4.5.1" />
     <PackageReference Include="Smidge.Nuglify" Version="4.5.1" />
     <PackageReference Include="Umbraco.Cms.Core" Version="16.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="logosmall.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
