@@ -1,0 +1,23 @@
+{
+    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+    "Category": "Developer Tools",
+    "Tags": [
+        "Smidge",
+        "Minification",
+        "Bundling"
+    ],
+    "VideoUrl": "",
+    "Screenshots": [],
+    "IssueTrackerUrl": "https://github.com/AaronSadlerUK/Umbraco.Community.Smidge/issues",
+    "LicenseTypes": ["Free"],
+    "RelatedPackages": [],
+    "PackagesByAuthor": [ "our.umbraco.memberlogin", "our.umbraco.umbnav.web" ],
+    "PackageType": "Package",
+    "AuthorDetails": {
+        "Name": "Aaron Sadler",
+        "Url": "https://aaronsadler.dev",
+        "Contributors": [
+        ]
+    },
+    "Title": "Umbraco.Community.Smidge"
+}
