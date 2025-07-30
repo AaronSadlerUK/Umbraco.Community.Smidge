@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbraco.Community.Smidge", "Umbraco.Community.Smidge.csproj", "{0656C841-4B3E-9F20-75C9-BB50948DEFFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0656C841-4B3E-9F20-75C9-BB50948DEFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0656C841-4B3E-9F20-75C9-BB50948DEFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0656C841-4B3E-9F20-75C9-BB50948DEFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0656C841-4B3E-9F20-75C9-BB50948DEFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB92AE0-3F0D-4CD8-ADE5-BE9794CDC4B4}
+	EndGlobalSection
+EndGlobal
