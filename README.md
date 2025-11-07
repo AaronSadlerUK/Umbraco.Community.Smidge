@@ -26,10 +26,11 @@ This project restores the `RuntimeMinifier` functionality to Umbraco v16.1.1+, p
     .AddBackOffice()
     .AddWebsite()
     .AddComposers()
-    .AddSlimsy()
     .AddRuntimeMinifier()
     .Build();
    ```
+
+   And add `app.UseSmidge();`
 
 2. Use the `IRuntimeMinifier` interface to minify assets at runtime.
 
