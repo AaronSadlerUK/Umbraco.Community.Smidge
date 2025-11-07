@@ -32,7 +32,14 @@ This project restores the `RuntimeMinifier` functionality to Umbraco v16.1.1+, p
 
    And add `app.UseSmidge();`
 
-2. Use the `IRuntimeMinifier` interface to minify assets at runtime.
+   ```csharp
+   // In your Startup or Program.cs
+   app.UseSmidge();
+
+   await app.RunAsync();
+   ```
+
+3. Use the `IRuntimeMinifier` interface to minify assets at runtime.
 
 #### Example
 
