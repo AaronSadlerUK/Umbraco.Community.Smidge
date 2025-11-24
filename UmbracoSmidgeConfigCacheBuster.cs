@@ -60,6 +60,12 @@ internal class UmbracoSmidgeConfigCacheBuster : ICacheBuster
     {
         get
         {
+            if (_runtimeMinificationSettings.Value != null &&
+                !string.IsNullOrWhiteSpace(_runtimeMinificationSettings.Value.Version))
+            {
+                _cacheBusterValue =  _runtimeMinificationSettings.Value.Version;
+            }
+
             if (_cacheBusterValue != null)
             {
                 return _cacheBusterValue;

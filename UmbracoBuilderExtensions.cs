@@ -28,6 +28,8 @@ namespace Umbraco.Community.Smidge
             builder.Services.AddSingleton<SmidgeHelperAccessor>();
             builder.Services.AddTransient<IPreProcessor, SmidgeNuglifyJs>();
             builder.Services.ConfigureOptions<SmidgeOptionsSetup>();
+            builder.Services.Configure<RuntimeMinificationSettings>(
+                builder.Config.GetSection("smidge"));
 
             return builder;
         }
